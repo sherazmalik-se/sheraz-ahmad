@@ -8,9 +8,9 @@
   <h3>
     <a href="https://sheraz-ahmad.netlify.app/projects/pricing-table/index.html">
       Demo
-    </a>
+    </a> 
     <span> | </span>
-    <a href="https://github.com/sherazmalik-se/pricing-table">
+    <a href="https://github.com/sherazmalik-se/sheraz-ahmad/tree/main/projects/pricing-table">
       Solution
     </a>
     <span> | </span>

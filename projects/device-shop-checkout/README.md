@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/sherazmalik-se/device-shop-checkout">
+    <a href="https://github.com/sherazmalik-se/sheraz-ahmad/tree/main/projects/device-shop-checkout">
       Solution
     </a>
     <span> | </span>
