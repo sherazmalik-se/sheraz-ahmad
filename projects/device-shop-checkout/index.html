@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
+    <title>Device Shop Checkout | devChallenges.io</title>
+    <link rel="stylesheet" href="./resources/main.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  </head>
+  <body class="bg-gray-100">
+
+    <header>
+      <img src="resources/background-image.png" class="absolute h-[200px] w-full" alt="">
+      <div class="relative flex justify-center items-center gap-4 text-gray-100 h-[100px]">
+        <h1 class="text-2xl font-bold">Checkout</h1>
+        <p class="bg-default-dark rounded-full px-4 py-1 w-fit text-xs">3 ITEMS</p>
+      </div>
+    </header>
+
+    <div class="relative w-[95%] mx-auto max-w-screen-2xl">
+      <div class="grid md:grid-cols-2 rounded-3xl" style="box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);">
+        <div class="left rounded-ss-2xl rounded-se-2xl md:rounded-se-none md:rounded-es-2xl p-8 bg-gray-200">
+          <div class="mb-8 flex gap-6">
+            <div class="img-container p-2 rounded-lg border-1 border-default-dark-gray bg-gray-100 h-24 w-24 flex justify-center justify-self-start">
+              <img src="./resources/Gold@2x.png" alt="" class="h-full">
+            </div>
+            <div class="grow flex flex-col">
+              <div class="grow flex justify-between font-semibold">
+                <p>iPhone 12 Pro</p>
+                <p>$999.00</p>
+              </div>
+              <div class="grow flex justify-between">
+                <p class="text-default-light-dark font-medium">Golden</p>
+              </div>
+              <div class="grow items-end flex justify-between">
+                <p class="text-default-light-dark font-medium">x 1</p>
+                <p class="text-default-light-dark font-bold">&#10005;</p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-8 flex gap-6">
+            <div class="img-container p-2 rounded-lg border-1 border-default-dark-gray bg-gray-100 h-24 w-24 flex justify-center justify-self-start">
+              <img src="./resources/Apple-watchx2.png" alt="" class="h-full">
+            </div>
+            <div class="grow flex flex-col">
+              <div class="grow flex justify-between font-semibold">
+                <p>Apple Watch</p>
+                <p>$399.00</p>
+              </div>
+              <div class="grow flex justify-between">
+                <p class="text-default-light-dark font-medium">Blue</p>
+              </div>
+              <div class="grow items-end flex justify-between">
+                <p class="text-default-light-dark font-medium">x 1</p>
+                <p class="text-default-light-dark font-bold">&#10005;</p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-8 flex gap-6">
+            <div class="img-container p-2 rounded-lg border-1 border-default-dark-gray bg-gray-100 h-24 w-24 flex justify-center justify-self-start">
+              <img src="./resources/iMac@2x.png" alt="" class="h-full">
+            </div>
+            <div class="grow flex flex-col">
+              <div class="grow flex justify-between font-semibold">
+                <p>iMac</p>
+                <p>$1199.00</p>
+              </div>
+              <div class="grow flex justify-between">
+                <p class="text-default-light-dark font-medium">Green</p>
+              </div>
+              <div class="grow items-end flex justify-between">
+                <p class="text-default-light-dark font-medium">x 1</p>
+                <p class="text-default-light-dark font-bold">&#10005;</p>
+              </div>
+            </div>
+          </div>
+          <div class="border-t-1 border-default-dark-gray pt-8">
+            <form class="flex gap-2">
+              <input type="text" class="grow border-1 border-default-dark-gray placeholder:text-default-light-dark rounded-lg p-3" placeholder="Enter coupon code">
+              <button class="p-4 rounded-lg bg-default-dark text-gray-100 font-semibold text-nowrap">Apply Coupon</button>
+            </form>
+            <div class="flex justify-between p-1 font-semibold pt-5 text-default-light-dark">
+              <p>Sub total</p>
+              <p>$2597.00</p>
+            </div>
+            <div class="flex justify-between p-1 font-semibold text-default-light-dark">
+              <p>Tax</p>
+              <p>$623.28</p>
+            </div>
+            <div class="flex justify-between p-1 font-semibold">
+              <p>Total</p>
+              <p>$3220.28</p>
+            </div>
+          </div>
+        </div><!-- Summary section -->
+        <div class="right md:rounded-se-2xl rounded-es-2xl md:rounded-es-none rounded-ee-2xl p-8 bg-white">
+          <p class="font-bold">Contact Information</p>
+          <form class="mt-2">
+            <div class="grid gap-2 pt-6">
+              <label class="font-semibold text-default-light-dark" for="name">First & Last name</label>
+              <input type="text" class="bg-gray-100 border-1 border-default-dark-gray placeholder:text-default-light-dark rounded-lg p-4 w-full" placeholder="Enter first & last name" id="name">
+            </div>
+            <div class="grid gap-2 pt-6">
+              <label class="font-semibold text-default-light-dark" for="email">Email address</label>
+              <input type="text" class="bg-gray-100 border-1 border-default-dark-gray placeholder:text-default-light-dark rounded-lg p-4 w-full" placeholder="Enter email address" id="email">
+            </div>
+            <div class="grid grid-cols-2 gap-5 pt-6">
+              <div class="grid gap-2">
+                <label class="font-semibold text-default-light-dark" for="country">Country</label>
+                <input type="text" class="bg-gray-100 border-1 border-default-dark-gray placeholder:text-default-dark rounded-lg p-4 w-full" placeholder="Finland" id="country">
+              </div>
+              <div class="grid gap-2">
+                <label class="font-semibold text-default-light-dark" for="postal-code">Postal code</label>
+                <input type="text" class="bg-gray-100 border-1 border-default-dark-gray placeholder:text-default-light-dark rounded-lg p-4 w-full" placeholder="00270" id="postal-code">
+              </div>
+            </div>
+            <div class="grid pt-6">
+              <button class="p-4 rounded-lg bg-default-dark text-gray-100 font-semibold">Continue</button>
+            </div>
+          </form>
+        </div><!-- Contact form section -->
+      </div>
+    </div>
+    
+    <div class="author-info mx-auto py-8">
+      Coded by <a href="https://sheraz-ahmad.netlify.app" class="text-blue-700 font-semibold hover:underline">Sheraz Ahmad</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" class="text-blue-700 font-semibold hover:underline" target="_blank"
+        >devChallenges.io</a>. | <a href="https://github.com/sherazmalik-se/solved-frontend-challenges" class="text-blue-700 font-semibold hover:underline" target="_blank"
+        >Source code</a>
+    </div>
+  </body>
+</html>
