@@ -33,3 +33,6 @@
 - [Tailwind](https://tailwindcss.com/)
 
 ## Author
+
+- Website [@sherazmalik-se](https://www.linkedin.com/in/sherazmalik-se)
+- GitHub [@sherazmalik-se](https://github.com/sherazmalik-se)
