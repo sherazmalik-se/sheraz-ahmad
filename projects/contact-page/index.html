@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+  <title>Contact Page | devChallenges.io</title>
+  <link rel="stylesheet" href="./resources/main.css">
+</head>
+<body class="bg-[url('./background@3x.png')] sm:bg-[url('./background@2x.png')] lg:bg-[url('./background.svg')] bg-no-repeat bg-cover bg-center">
+
+  <div class="wrapper max-w-screen-2xl mx-auto grid grid-row-[1fr_auto]">
+    <div class="min-h-screen">
+      <nav class="sm:px-12 px-3 mt-4">
+        <img src="./resources/Logo.svg" class="hidden sm:block">
+        <img src="./resources/Logo@2x.png" class="sm:hidden">
+      </nav>
+
+      <section class="text-center max-w-2xl sm:mx-auto text-white mx-4">
+        
+        <h1 class="heading-title text-4xl sm:text-6xl mt-4">
+          Interested in our business pricing?
+        </h1>
+
+        <p class="heading-description sm:text-[2rem] mt-3">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+        
+        <div class="mt-12 bg-[#FFFFFF33] p-5 rounded-xl">
+          <form>
+
+            <div class="grid sm:grid-cols-2 gap-4">
+              
+              <div class="form-group grid gap-1">
+                <label for="name" class="text-start text-sm">Name</label>
+                <input type="text" id="name" name="name" placeholder="Ethan Johnson" class="p-4 rounded-xl placeholder-[#111729] text-[#111729]" />
+              </div><!-- form-group -->
+
+              <div class="form-group grid gap-1">
+                <label for="email" class="text-start text-sm">Company Email</label>
+                <input type="email" id="email" name="email" placeholder="ethan@johnson.com" class="p-4 rounded-xl placeholder-[#111729] text-[#111729]" />
+              </div><!-- form-group -->
+            </div><!-- grid-row -->
+
+            <div class="grid sm:grid-cols-2 gap-4 mt-5">
+              
+              <div class="form-group grid gap-1">
+                <label for="company-size" class="text-start text-sm">Company Size</label>
+                <div class="relative">
+                  <input type="text" id="company-size" name="company-size" placeholder="50-100 employees" class="w-full p-4 pr-12 rounded-xl placeholder-[#111729] text-[#111729]"/>
+                  <img src="./resources/Expand_down.svg" class="absolute right-4 top-4" />
+                </div>
+              </div><!-- form-group -->
+
+              <div class="form-group grid gap-1">
+                <label for="subject" class="text-start text-sm">Subject</label>
+                <div class="relative">
+                  <input type="text" id="subject" name="subject" placeholder="Building Landing pages" class="w-full p-4 pr-12 rounded-xl placeholder-[#111729] text-[#111729]"/>
+                  <img src="./resources/Expand_down.svg" class="absolute right-4 top-4" />
+                </div>
+                
+              </div><!-- form-group -->
+            </div><!-- grid-row -->
+
+            <div class="grid mt-5">
+              <div class="form-group grid gap-1">
+                <label for="message" class="text-start text-sm">Message</label>
+                <textarea id="message" name="message" placeholder="50-100 employees" class="p-4 rounded-xl placeholder-[#111729] text-[#111729]" rows="10"></textarea>
+              </div><!-- form-group -->
+            </div><!-- grid-row -->
+
+            <div class="grid">
+              <button type="submit" class="mt-5 p-4 text-xl rounded-xl text-[#4036A9] bg-white">Contact Sales</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </div>
+    
+    <div class="author-info mx-auto py-8 text-[#CDD5E0]">
+      Coded by <a href="https://sheraz-ahmad.netlify.app" class="text-white font-medium hover:underline">Sheraz Ahmad</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" class="text-white font-medium hover:underline" target="_blank"
+        >devChallenges.io</a>. | <a href="https://github.com/sherazmalik-se/sheraz-ahmad/tree/main/projects/contact-page" class="text-white font-medium hover:underline" target="_blank"
+        >Source code</a>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
