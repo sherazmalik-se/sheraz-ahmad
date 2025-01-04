@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'inter-medium';
+  src: url(../resources/Inter/static/Inter_18pt-Medium.ttf);
+}
+@font-face {
+  font-family: 'inter-regular';
+  src: url(../resources/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+* {
+  font-family: "inter-regular";
+}
+
+.description .audio-name {
+  font-family: "inter-medium";
+}
