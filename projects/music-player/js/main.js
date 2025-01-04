@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
     {
       audioName: "Lost in the City Lights",
       author: "Cosmo Sheldrake",
-      path: "../resources/lost-in-city-lights-145038.mp3",
+      path: "./resources/lost-in-city-lights-145038.mp3",
     },
     {
       audioName: "Forest Lullaby",
       author: "Lesfm",
-      path: "../resources/forest-lullaby-110624.mp3",
+      path: "./resources/forest-lullaby-110624.mp3",
     },
   ];
 
