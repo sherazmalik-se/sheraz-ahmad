@@ -29,7 +29,7 @@
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Author
 

@@ -28,7 +28,7 @@
 
 - Semantic HTML5 markup
 - CSS custom properties
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Author
 

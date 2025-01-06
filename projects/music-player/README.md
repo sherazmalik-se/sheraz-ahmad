@@ -30,7 +30,7 @@
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - JavaScript
 
 ## Author
