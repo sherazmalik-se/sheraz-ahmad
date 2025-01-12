@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+  <title>Guess The Word Game | devChallenges.io</title>
+  <link rel="stylesheet" href="./src/main.css">
+</head>
+<body class="bg-[url('../resources/bg-guess-the-word.png')] bg-no-repeat bg-fixed bg-cover bg-center">
+
+  <div class="successAlert hidden bg-green-100 border border-green-400 text-green-700 px-6 py-4 rounded fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 inline-block" role="alert">
+    <strong class="font-bold text-3xl">🎉 Success! </strong>
+    <span class="block sm:inline text-xl"> You won.</span>
+  </div>
+  <div class="failureAlert hidden bg-red-100 border border-red-400 text-red-700 px-6 py-4 rounded fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 inline-block" role="alert">
+    <strong class="font-bold text-3xl">&#x1F62D; Failed! </strong>
+    <span class="block sm:inline text-xl"> You Loose.</span>
+  </div>
+
+  <div class="wrapper min-h-screen px-3 flex justify-center items-center">
+    
+    <div class="basis-[380px] bg-[#171E30] rounded-xl px-7 pt-8 pb-6 flex flex-col">
+      
+      <img src="./resources/word-scramblle-logo.svg" alt="Word Scramblle" class="self-center">
+      
+      <div class="scrambled-word tracking-[1em] flex justify-center bg-[#4A5567] py-2 rounded-[4px] mt-8 mb-6">
+        <p class="text-[32px] pl-4 text-[#97A3B6]">relowf</p>
+      </div>
+
+      <div class="flex justify-between text-xs items-baseline text-[#4A5567]">
+        <div class="ml-2 flex gap-2 items-baseline">
+          <p class="font-outfit-medium">Tries (<span class="current-try"></span>/5):</p>
+          <ul class="flex gap-1 tries">
+            <li class="w-[6px] h-[6px] rounded-full bg-[#394150] try-1"></li>
+            <li class="w-[6px] h-[6px] rounded-full bg-[#394150] try-2"></li>
+            <li class="w-[6px] h-[6px] rounded-full bg-[#394150] try-3"></li>
+            <li class="w-[6px] h-[6px] rounded-full bg-[#394150] try-4"></li>
+            <li class="w-[6px] h-[6px] rounded-full bg-[#394150;] try-5"></li>
+          </ul>
+        </div>
+        <div class="mr-2 flex items-baseline gap-1 font-outfit-medium">Mistakes:  <p class="show-mistakes text-[16px] text-[#97A3B6]"></p></div>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-[6px] py-14 inputs-wrapper">
+        
+      </div>
+
+      <div class="cta flex justify-center gap-5 text-[#F2F5F9]">
+        <button class="bg-[#C951E7] text-sm px-9 py-2 rounded-lg random">Random</button>
+        <button class="bg-[#C951E7] text-sm px-9 py-2 rounded-lg reset">Reset</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="author-info mx-auto py-4 text-[#97A3B6]">
+    Coded by <a href="https://sheraz-ahmad.netlify.app" class="text-gray-200 font-semibold hover:underline">Sheraz Ahmad</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" class="text-gray-200 font-semibold hover:underline" target="_blank"
+      >devChallenges.io</a>. | <a href="https://github.com/sherazmalik-se/sheraz-ahmad/tree/main/projects/guess-the-word" class="text-gray-200 font-semibold hover:underline" target="_blank"
+      >Source code</a>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

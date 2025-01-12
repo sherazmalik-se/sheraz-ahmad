@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "outfit-regular";
+  src: url("../resources/Outfit/outfit-regular.ttf");
+}
+@font-face {
+  font-family: "outfit-medium";
+  src: url("../resources/Outfit/outfit-medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "outfit-regular", sans-serif;
+}
+
+.font-outfit-medium {
+  font-family: "outfit-medium", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+.tries li.failed {
+  background-color: #7429c6;
+}
+
+.scrambled-word {
+  box-shadow: 0px 4px 0px 0px #030616;
+}
+.cta button {
+  filter: drop-shadow(0px 4px 0px #7b248a);
+}
+
+@layer components {
+  .input-word {
+    @apply w-12 rounded-lg border-2 border-[#4A5567] focus:outline-none focus:border-[#672171] py-1.5 bg-[#171E30] text-[#F2F5F9] text-xl text-center;
+  }
+}
