@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     if (Number(currentStep) === 4) {
       document.querySelector(".alertDiv").classList.remove("hidden");
       setTimeout(() => {
-        window.location.href = "/";
         document.querySelector(".alertDiv").classList.add("hidden");
+        window.location.reload();
       }, 2000);
       return;
     }
