@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+  name="description"
+  content="Sheraz Ahmad's solution for QR code generator challenge by devChallenges.io">
 
   <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
   <title>QR code generator | devChallenges.io</title>
   <link rel="stylesheet" href="./src/main.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 </head>
 <body>
   <!-- 
@@ -24,8 +27,8 @@ Share
       <div class="self-center mt-10 grid">
 
         <div class="logo flex justify-center">
-          <img src="./resources/Logo.svg" class="hidden sm:block h-10">
-          <img src="./resources/Logo-small.svg" class="block sm:hidden h-6">
+          <img src="./resources/Logo.svg" class="hidden sm:block h-10" alt="QR Code">
+          <img src="./resources/Logo-small.svg" class="block sm:hidden h-6" alt="QR Code">
         </div>
         
         <div class="relative form-container mt-[30px]">
@@ -42,9 +45,9 @@ Share
             </div>
           </div>
           <div class="cta flex gap-8">
-            <button class="p-4 font-medium px-10 rounded-xl flex gap-2 bg-[#263FA9] text-[#F2F5F9] download-qr">Download <img src="./resources/Load_circle_duotone.svg"></button>
+            <button class="p-4 font-medium px-10 rounded-xl flex gap-2 bg-[#263FA9] text-[#F2F5F9] download-qr">Download <img src="./resources/Load_circle_duotone.svg" alt="arrow down icon"></button>
             <div class="tooltip">
-              <button class="p-4 font-medium px-10 rounded-xl flex gap-2 bg-[#263FA9] text-[#F2F5F9] share-qr"><span class="tooltiptext" id="myTooltip">Copy to clipboard</span> Share <img src="./resources/link_alt.svg"></button>
+              <button class="p-4 font-medium px-10 rounded-xl flex gap-2 bg-[#263FA9] text-[#F2F5F9] share-qr"><span class="tooltiptext" id="myTooltip">Copy to clipboard</span> Share <img src="./resources/link_alt.svg" alt="clipboard icon"></button>
             </div>
           </div>
         </div>
@@ -54,8 +57,7 @@ Share
     <div class="author-info mt-16 mx-auto py-4 text-[#F2F5F9]">
       Coded by <a href="https://sheraz-ahmad.netlify.app" class="text-blue-700 font-semibold hover:underline">Sheraz Ahmad</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" class="text-blue-700 font-semibold hover:underline" target="_blank"
-        >devChallenges.io</a>. | <a href="https://github.com/sherazmalik-se/sheraz-ahmad/tree/main/projects/qr-code-generator" class="text-blue-700 font-semibold hover:underline" target="_blank"
-        >Source code</a>
+        >devChallenges.io</a>. | <a href="https://github.com/sherazmalik-se/sheraz-ahmad/tree/main/projects/qr-code-generator" class="text-blue-700 font-semibold hover:underline" >Source code</a>
     </div>
   </div>
 
