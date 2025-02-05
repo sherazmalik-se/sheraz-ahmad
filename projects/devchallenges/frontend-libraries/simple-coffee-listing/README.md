@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://sheraz-ahmad.netlify.app/projects/devchallenges/frontend-libraries/simple-coffee-listing/index.html">
+    <a href="https://simple-coffee-listing-sheraz.netlify.app">
       Demo
     </a>
     <span> | </span>
@@ -22,7 +22,7 @@
 
 ## Overview
 
-![screenshot](/public/design/completed.jpg)
+![screenshot](./public/design/completed.jpg)
 
 ### Built with
 
