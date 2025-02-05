@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-customMdLg: 52rem;
+}
+
+@font-face {
+  font-family: 'DMSans-Regular';
+  src: url(./../assets/DMSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DMSans-Medium';
+  src: url(./../assets/DMSans-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DMSans-SemiBold';
+  src: url(./../assets/DMSans-SemiBold.ttf) format('truetype');
+}
+
+body {
+  background-color: #111315;
+  font-family: 'DMSans-Regular', sans-serif;
+}
+
+.dm-sans-medium {
+  font-family: 'DMSans-Medium', sans-serif;
+}
+
+.dm-sans-semibold {
+  font-family: 'DMSans-SemiBold', sans-serif;
+}
