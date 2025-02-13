@@ -20,7 +20,7 @@ function Footer() {
       </a>
       . |{' '}
       <a
-        href="https://github.com/sherazmalik-se/sheraz-ahmad/tree/main/projects/devchallenges/frontend-libraries/simple-coffee-listing"
+        href="https://github.com/sherazmalik-se/sheraz-ahmad/tree/main/projects/devchallenges/frontend-libraries/github-profile"
         className="text-gray-200 font-semibold hover:underline"
       >
         Source code

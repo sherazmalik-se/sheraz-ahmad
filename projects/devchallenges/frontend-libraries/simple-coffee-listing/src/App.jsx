@@ -14,7 +14,7 @@ function App() {
     data: coffeeList,
     isLoading,
     isSuccess,
-  } = useQuery({ queryKey: ['coffeeList'], queryFn: fetchCoffeeList });
+  } = useQuery({ queryKey: ['coffeeList'], queryFn: fetchCoffeeList, refetchOnWindowFocus: false });
 
   function fetchCoffeeList() {
     return fetch(
