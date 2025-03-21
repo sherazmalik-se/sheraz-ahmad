@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Font Definitions */
+@font-face {
+  font-family: "DM-Sans-bold";
+  src: url("/src/assets/fonts/DMSans_18pt-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM-Sans-medium";
+  src: url("/src/assets/fonts/DMSans_18pt-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@theme {
+  --font-dmsans-bold: "DM-Sans-bold", "sans-serif";
+  --font-dmsans-medium: "DM-Sans-medium", "sans-serif";
+  --color-custom-white: #f9fafb;
+  --color-custom-offwhite: #d2d5da;
+}
+
+.left,
+.right {
+  @apply rounded-2xl p-6 max-w-[900px] lg:max-w-[663px] w-full border border-[#4D5562];
+}
+
+.content {
+  @apply px-3 flex gap-3 flex-col lg:flex-row justify-stretch lg:justify-center items-center lg:items-stretch lg:mx-[63px];
+}
