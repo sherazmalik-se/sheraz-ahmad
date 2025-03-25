@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Font Definitions */
+@font-face {
+  font-family: "BeVietnamPro-Regular";
+  src: url("/src/assets/fonts/BeVietnamPro-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Medium";
+  src: url("/src/assets/fonts/BeVietnamPro-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BeVietnamPro-SemiBold";
+  src: url("/src/assets/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@theme {
+  --font-vietnam-semibold: "BeVietnamPro-SemiBold", "sans-serif";
+  --font-vietnam-medium: "BeVietnamPro-Medium", "sans-serif";
+  --font-vietnam-regular: "BeVietnamPro-Regular", "sans-serif";
+  --color-custom-white: #e2e4f3;
+  --breakpoint-mdl: 56rem;
+  --breakpoint-xs: 30rem;
+}
+
+button {
+  @apply cursor-pointer;
+}
