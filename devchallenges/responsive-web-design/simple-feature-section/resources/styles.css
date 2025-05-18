@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'outfit-semibold';
+  src: url(outfit/Outfit-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'outfit-regular';
+  src: url(outfit/Outfit-regular.ttf);
+}
+
+header h1,
+main .title {
+  font-family: "outfit-semibold";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "outfit-regular";
+}
+
+body {
+  height: 100vh;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}

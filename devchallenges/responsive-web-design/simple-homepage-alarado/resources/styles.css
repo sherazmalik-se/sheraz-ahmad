@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins-regular";
+  font-display: swap;
+  src: url("./poppins/poppins-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-medium";
+  font-display: swap;
+  src: url("./poppins/poppins-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-semibold";
+  font-display: swap;
+  src: url("./poppins/poppins-semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-bold";
+  font-display: swap;
+  src: url("./poppins/poppins-bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins-regular", serif;
+}
+
+header nav a,
+.cta > * {
+  font-family: "Poppins-semibold";
+}
+
+.main-title {
+  font-family: "Poppins-bold";
+}
+.main-description,
+main .pros {
+  font-family: "Poppins-medium";
+}
+
+body {
+  height: 100vh;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+.mode-selector.dark {
+  --right: 30px;
+}
+.mode-selector::after {
+  background: #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 2px;
+  right: var(--right, 2px);
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.mode-selector .fill-moon,
+.mode-selector .fill-sun {
+  transition: filter 0.5s;
+}
+.mode-selector .fill-moon,
+.mode-selector.dark .fill-sun {
+  filter: brightness(0) invert(1);
+}
+.mode-selector.dark .fill-moon {
+  filter: brightness(1) invert(0);
+}
+
+@media (max-width: 640px) {
+  .nav-for-mobile {
+    transform: translateX(100%);
+    transition: all 1s;
+  }
+  .nav-for-mobile.open {
+    transform: translateX(0);
+  }
+}

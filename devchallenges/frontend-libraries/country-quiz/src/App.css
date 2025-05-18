@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Font Definitions */
+@font-face {
+  font-family: "BeVietnamPro-Medium";
+  src: url("/src/assets/fonts/BeVietnamPro-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BeVietnamPro-SemiBold";
+  src: url("/src/assets/fonts/BeVietnamPro-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Bold";
+  src: url("/src/assets/fonts/BeVietnamPro-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@theme {
+  --font-vietnam-bold: "BeVietnamPro-Bold", "sans-serif";
+  --font-vietnam-semibold: "BeVietnamPro-SemiBold", "sans-serif";
+  --font-vietnam-medium: "BeVietnamPro-Medium", "sans-serif";
+  --color-custom-white: #e2e4f3;
+}
+
+.wrapper {
+  @apply bg-[url('/resources/bg-sm.jpg')] sm:bg-[url('/resources/bg.jpg')] bg-cover bg-center flex flex-col items-center justify-center text-custom-white;
+}
+
+.container {
+  @apply min-h-screen max-w-[62rem] w-[90%] flex flex-col justify-center mb-24;
+}
+
+.questionsList li {
+  @apply rounded-full w-11 h-11 bg-[#393F6E] flex items-center justify-center hover:bg-linear-to-r hover:from-[#E65895] hover:to-[#BC6BE8];
+}
+
+.questionsList li.active {
+  @apply bg-linear-to-r from-[#E65895] to-[#BC6BE8];
+}
+
+.optionsGroup button {
+  @apply bg-[#393F6E] hover:bg-linear-to-r hover:from-[#E65895] hover:to-[#BC6BE8] p-6 rounded-2xl text-wrap flex gap-2 justify-center;
+}

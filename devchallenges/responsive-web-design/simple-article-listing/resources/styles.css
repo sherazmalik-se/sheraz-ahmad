@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "poppins-semibold";
+  src: url("./Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "poppins-medium";
+  src: url("./Poppins/poppins-medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins-medium", sans-serif;
+}
+
+header h1,
+.description h2 {
+  font-family: "poppins-semibold", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
